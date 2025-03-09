@@ -68,7 +68,7 @@ const Services = () => {
     }, []);
         
     return (
-    <div className='relative'> 
+    <div id='services' className='relative'> 
               <DotAndColor />
          <div className="custom-padding ">
             

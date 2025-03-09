@@ -5,7 +5,7 @@ import BlurImage from "./BlurImage";
 import CounterUp from "./CounterUp";
 const TotalProject = () => {
     return (
-        <div  className="bg-countBg bg-no-repeat bg-cover bg-center  relative w-full   py-10">
+        <div  className="bg-countBg w-full h-full bg-no-repeat bg-cover bg-center overflow-hidden relative   py-10">
             <div className="custom-padding flex items-center justify-between flex-col h-full">
             <div className='flex items-center justify-center gap-2 flex-row  max-md:flex-col'>
                  <Image src={cube} alt='cube' height="100%" width="100%" className="rotating-image max-sm:w-[100%] max-sm:h-[100%] max-lg:w-[100%] max-lg:h-[100%]  max-md:w-[100%] max-md:h-[100%]  "   />
