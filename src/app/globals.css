@@ -84,53 +84,6 @@ a{
 }
 
 
-/* @keyframes wave {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-10px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.wave-effect {
-  animation: wave 2s infinite ease-in-out;
-}
-
-@keyframes wave {
-  0% {
-    d: path("M0 600C200 500 400 700 600 600C800 500 1000 700 1200 600L1440 600L1440 800L0 800Z");
-  }
-  50% {
-    d: path("M0 600C200 550 400 650 600 600C800 550 1000 650 1200 600L1440 600L1440 800L0 800Z");
-  }
-  100% {
-    d: path("M0 600C200 500 400 700 600 600C800 500 1000 700 1200 600L1440 600L1440 800L0 800Z");
-  }
-}
-
-.wave-floor {
-  animation: wave 3s infinite ease-in-out;
-}
-
-
-@keyframes moveAlongPath {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-.moving-image {
-  offset-path: path('M100 550 Q720 450 1340 550');
-  animation: moveAlongPath 5s infinite linear;
-} */
-
 @keyframes moveRightToLeft{
   0% { transform: translateX(0); }
   50% { transform: translateX(-65vw); } /* Moves left */
